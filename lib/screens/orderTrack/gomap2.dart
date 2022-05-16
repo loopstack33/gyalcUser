@@ -43,7 +43,7 @@ class GoMap extends StatefulWidget {
 }
 
 class _GoMapState extends State<GoMap> {
-  final Set<Marker> _markers = {};
+
   late LatLng currentLaltg;
   final Set<Marker> markers = new Set();
   Set<Polyline> _polyline = Set<Polyline>();
